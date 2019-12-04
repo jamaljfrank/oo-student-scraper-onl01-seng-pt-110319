@@ -8,8 +8,8 @@ class Scraper
     url_array = []
     names_array = []
     final_array = []
-    #html = open("https://learn-co-curriculum.github.io/student-scraper-test-page/index.html")
-    html = open("#{index_url}")
+    html = open("https://learn-co-curriculum.github.io/student-scraper-test-page/index.html")
+    
     doc = Nokogiri::HTML(html)
 
   end
